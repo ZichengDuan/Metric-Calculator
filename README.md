@@ -32,7 +32,7 @@ where
 - `r_x`/`r_y` refer to the rotated coordinates of the bounding boxes.
 - `degree` refers to the orientation degree of the current bounding box.
 
-Please refer to example [gt.txt](https://github.com/ZichengDuan/Metric-Calculator/blob/main/code/gt.txt) and [results.txt]((https://github.com/ZichengDuan/Metric-Calculator/blob/main/code/results.txt)) for sample data, [evaluation.py](https://github.com/ZichengDuan/Metric-Calculator/blob/main/code/evaluation.py) to specify your file path.
+Please refer to example [gt.txt](https://github.com/ZichengDuan/Metric-Calculator/blob/main/code/gt.txt) and [results.txt]((https://github.com/ZichengDuan/Metric-Calculator/blob/main/code/results.txt)) for sample data, [evaluate.py](https://github.com/ZichengDuan/Metric-Calculator/blob/main/code/evaluate.py) to specify your file path.
 
 Run the script using `cd code && evaluate.py` to evaluate the template results, the expected output should be:
 ![](https://github.com/ZichengDuan/Metric-Calculator/blob/main/misc/output.png)
