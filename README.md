@@ -32,10 +32,10 @@ where
 - `r_x`/`r_y` refer to the rotated coordinates of the bounding boxes.
 - `degree` refers to the orientation degree of the current bounding box.
 
-Please refer to example [gt.txt](https://github.com/ZichengDuan/Metric-Calculator/code/gt.txt) and [results.txt]((https://github.com/ZichengDuan/Metric-Calculator/code/results.txt)) for sample data, [evaluation.py](https://github.com/ZichengDuan/Metric-Calculator/code/evaluation.py) to specify your file path.
+Please refer to example [gt.txt](https://github.com/ZichengDuan/Metric-Calculator/blob/main/code/gt.txt) and [results.txt]((https://github.com/ZichengDuan/Metric-Calculator/blob/main/code/results.txt)) for sample data, [evaluation.py](https://github.com/ZichengDuan/Metric-Calculator/blob/main/code/evaluation.py) to specify your file path.
 
 Run the script using `cd code && evaluate.py` to evaluate the template results, the expected output should be:
-![](https://github.com/ZichengDuan/Metric-Calculator/misc/output.png)
+![](https://github.com/ZichengDuan/Metric-Calculator/blob/main/misc/output.png)
 
 ## Parameter settings
-Specify distance threshold (in centimeters) for calculating `MODA` and `MODP` in [CLEAR_MOD_HUN.m](https://github.com/ZichengDuan/Metric-Calculator/code/motchallenge-devkit/utils/CLEAR_MOD_HUN.m) line 35.
+Specify distance threshold (in centimeters) for calculating `MODA` and `MODP` in [CLEAR_MOD_HUN.m](https://github.com/ZichengDuan/Metric-Calculator/blob/main/code/motchallenge-devkit/utils/CLEAR_MOD_HUN.m) line 35.
